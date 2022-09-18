@@ -135,6 +135,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
     {
         m_StoreController.InitiatePurchase(removeAds);
     }
+
     public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs args)
     {
         Debug.Log("processing");
