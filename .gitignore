@@ -1,0 +1,3 @@
+*.meta
+.DS_Store
+Scripts/Advertisements/AdKeys.cs
