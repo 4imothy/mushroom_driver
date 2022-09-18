@@ -9,15 +9,17 @@ Mushroom Driver is a mobile game I created during the summer of 2022. I created 
 #### The Game
 
 Mushroom Driver is an infinite runner style game where the player can take control of one of many cars and drive through the land of mushrooms. As the player drives they must dodge and weave between the rocks and mushrooms in their way all while their car gets faster and faster. 
-
-<img style="width: 40%; height: 50vh; margin-left: 10%" src='./ReadMeImages/Game.jpg'/>
+<p align="center">
+<img style="width: 40%; height: 50vh;" src='./ReadMeImages/Game.jpg'/>
 <img style="width: 40%; height: 50vh;" src='./ReadMeImages/Shop.jpg'/>
+</p>
 
 #### Leaderboards
 
 Mushroom Driver uses [LootLocker](https://lootlocker.com/) to host both all-time and weekly leaderboards. After a player reaches a score that places top 10 in one or both boards the player will have to input the name they want displayed and then Mushroom Driver will upload the score and that name to the loot locker database. Now every fetch for the top scores will return that new name and score in the proper spot. 
-
-<img style="width: 40%; height 50vh; margin-left: 30%" src='./ReadMeImages/Leaderboard.jpg' />
+<p align="center">
+<img style="width: 40%; height 50vh;" src='./ReadMeImages/Leaderboard.jpg' />
+</p>
 
 #### Ads and In-App-Purchases
 
