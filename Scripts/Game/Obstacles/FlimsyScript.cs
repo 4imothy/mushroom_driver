@@ -10,9 +10,10 @@ public class FlimsyScript : MonoBehaviour
     private GameObject car;
     public void Start()
     {
+        gameObject.tag = "Flimsy";
         scaleX = gameObject.transform.localScale.x;
         scaleZ = gameObject.transform.localScale.z;
-        //set it beneath ground 
+        //set it beneath ground
         transform.position = new Vector3(transform.position.x, -2, transform.position.z);
         car = GameObject.Find("/Car");
         LODGroup lodGroup = GetComponent<LODGroup>();
