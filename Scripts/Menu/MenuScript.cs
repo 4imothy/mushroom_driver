@@ -2,20 +2,23 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuButtons : MonoBehaviour
+public class MenuScript: MonoBehaviour
 {
     public GameObject carContainer;
     public GameObject customizeMenu;
+    public GameObject closeCustomize;
 
     public void openControls()
     {
         GetComponent<Animator>().Play("openControls");
+        closeCustomize.SetActive(true);
         customizeMenu.SetActive(true);
     }
 
     public void closeControls()
     {
         GetComponent<Animator>().Play("leaveControls");
+        closeCustomize.SetActive(false);
         StartCoroutine(closeControlsAfterAnim());
     }
 
