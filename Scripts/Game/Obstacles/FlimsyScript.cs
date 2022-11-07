@@ -24,6 +24,9 @@ public class FlimsyScript : MonoBehaviour
         lodGroup.SetLODs(lods);
         lodGroup.RecalculateBounds();
         lodGroup.size = 2;
+        Collider col = GetComponent<Collider>();
+        if (col != null)
+            col.isTrigger = true;
     }
 
     public void Update()
